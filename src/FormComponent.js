@@ -3,8 +3,9 @@ import './style.css'
 function FormComponent(props){
     console.log(props)
     return (
-       <div className="form-set"><main>
-            <form>
+       <div className="form-set Site-content">
+       <main>
+            <form >
                 <input 
                     name="firstName" 
                     value={props.firstName} 

@@ -2,11 +2,15 @@
 
 import React from "react"
 import Form from './FormContainer'
+import Footer from './Footer'
+import Header from './Header'
 
 function App () {
   return(
-    <div>
+    <div className="Site">
+      <Header />
       <Form />
+      <Footer />
     </div>
   )
 }
